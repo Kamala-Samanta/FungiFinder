@@ -1,0 +1,11 @@
+.equal-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch; /* This is the default value */
+  gap: 1rem;
+}
+
+.item {
+  background-color: lightblue;
+  padding: 1rem;
+}
